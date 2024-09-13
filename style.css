@@ -1,0 +1,48 @@
+
+
+h1{
+    text-align: center;
+}
+
+body, html {
+    height: 100%;
+}
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+/**CATEGORIAS**/
+/**CARDS***/
+.card-img-top {
+    height: 60%;
+}
+
+.btn btn-secondary btn-sm{
+    margin-top: 30px;
+
+}
+.card-container {
+    display: flex;
+    justify-content: center; 
+    gap: 20px; 
+    margin-top: 20px; /
+}
+
+.card {
+    text-align: center;
+}
+
+/**FOOTER***/
+footer {
+    background-color: #343a40;
+    color: white;
+    padding: 20px 0;
+}
+footer a {
+    text-decoration: none;
+    color: white;
+}
+footer a:hover {
+    text-decoration: underline;
+}
